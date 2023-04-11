@@ -6,8 +6,9 @@
 
 .sidebar{
     background-color: aquamarine;
-    width: 20vw;
+    width: 16vw;
     font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
 }
 
 .sidebar nav{
@@ -17,13 +18,32 @@
 .sidebar nav li{
     list-style: none;
     font-size: 15px;
+    padding: 33px 0px;
 }
 
 .main{
     background-color: aqua;
-    width: 80vw;
+    width: 84vw;
+    font-size: 10px;
 }
 
 .container{
     display: flex;
+}
+
+.infoContainer{
+    background-color: antiquewhite;
+    margin: 140px auto;
+    width: 40vw;
+    height: 70vh;
+}
+
+.profilePic{
+    height: 100%;
+    width: 100%;
+}
+
+.devPic {
+    height: 300px;
+    width: 300px;
 }
