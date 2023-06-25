@@ -5,45 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pranjal Jha</title>
+    <title>Pranjal Jha | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Dongle&family=Fira+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/introduction.html">Introduction</a></li>
-                    <li><a href="/achievements.html">Achievements</a></li>
-                    <li><a href="/resume.html">Resume</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="main">
-            <div class="infoContainer">
-                <div class="devInfo">
-                    <div class="hello">Hi!!</div>
-                    <div class="name">I am Pranjal Jha</div>
-                    <div class="about">Developer, Dancer & Painter</div>
-                    <div class="buttons">
-                        <button>Download CV</button>
-                        <button>Contact me</button>
-                    </div>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/introduction.html">About Me</a></li>
+                <li><a href="/achievements.html">Achievements</a></li>
+                <li><a href="/resume.html">Resume</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="./assets/Pranjal.png" alt="">
                 </div>
-                <div class="devPic">
-                    <img class="profilePic" src="./assets/Pranjal.png" alt="Pranjal Jha">
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi I'm <span>Pranjal Jha,</span>
+                    A Web Developer.
+                </h1>
+                <p>
+                    I'm a Web Developer, I love to create beautiful and functional websites.
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text" >Download CV</span>
+                        <span class="btn-icon"><i class="fa-duotone fa-down-to-bracket"></i></span>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 </body>
 
 </html>
