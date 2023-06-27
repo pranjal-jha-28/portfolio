@@ -16,6 +16,7 @@ body{
     height: 15%;
     font-family: 'Fira Sans', sans-serif;
     color: black;
+    margin-top: 1.5rem;
 }
 
 .navbar nav ul{
@@ -27,13 +28,24 @@ body{
 .navbar nav li{
     list-style: none;
     font-size: 15px;
-    padding: 33px 0.5rem;
+    padding: 0.75rem;
+    margin: 0 1.5rem;
+    border-radius: 50%;
+    border: 2px solid rgba(193, 99, 178, 0.5);
+    color: #c163b2;
+    transition: all 0.4s;
+}
+
+.navbar nav li:hover{
+    background-color: #c163b2;
+    color: whitesmoke;
 }
 
 .navbar nav li a{
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
+
 
 .header-content{
     display: flex;
