@@ -17,13 +17,18 @@ body{
 
 
 .about_container{
-    background-image: linear-gradient(to bottom right, #eeaeca,#94bbe9); 
+    /* background: url("assets/About.jpeg"); */
+    background-image: linear-gradient(to bottom right, #eeaecac6,#94bce9cb),url("assets/About.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
 
 .heading {
     font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
     text-align: center;
     padding: 0 0.75rem;
     margin: 0 0 1.5rem;
@@ -32,9 +37,11 @@ body{
     text-shadow: 15px 10px 4px #c163b2;
 }
 
-/* .heading::after {
-    content: "About Me";
-    color: #c163b2;
-    transform: translate(1rem, 1rem) ;
-    
-} */
+.about_content {
+    background-color: white;
+    margin: 1rem 4rem;
+    padding: 2rem 4rem;
+    opacity: 65%;
+    letter-spacing: 1.5px;
+    font-size: 1.25rem;
+}
