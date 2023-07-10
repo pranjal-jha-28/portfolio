@@ -115,6 +115,10 @@ body{
     color: inherit;
 }
 
+.btn-text {
+    text-decoration: none;
+}
+
 .heading{
     font-family: 'Dancing Script', cursive;
     text-align: center;
