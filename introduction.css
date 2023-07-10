@@ -38,7 +38,7 @@ body{
     text-shadow: 15px 10px 4px #c163b2;
 }
 
-.about_content {
+.background_wrapper {
     background-color: white;
     margin: 1rem 4rem;
     margin-bottom: 0;
@@ -46,4 +46,35 @@ body{
     opacity: 65%;
     letter-spacing: 1.5px;
     font-size: 1.25rem;
+}
+
+/* .info {
+} */
+
+.skills {
+    width: 50%;
+    border-right: 1px solid rgba(0, 0, 0, .35);
+}
+
+.secondary_heading {
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-bottom: .75rem;
+}
+
+.interests {
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.px-1 {
+    padding: 0 .5rem;
 }
