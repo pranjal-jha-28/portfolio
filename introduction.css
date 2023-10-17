@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
 }
 
 body, html {
@@ -17,7 +15,6 @@ body{
 
 
 .about_container{
-    /* background: url("assets/About.jpeg"); */
     background-image: linear-gradient(to bottom right, #eeaecac6,#94bce9cb),url("assets/About.jpeg"); 
     background-repeat: no-repeat;
     background-size: cover;
