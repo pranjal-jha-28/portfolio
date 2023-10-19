@@ -60,7 +60,11 @@ body{
     align-items: center;
 }
 
+
 .btn{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 20px;
     margin: 25px;
     border: 2px solid rgba(193, 99, 178, 0.5);
     width: 30rem;
@@ -74,4 +78,26 @@ body{
 .btn:focus{
     border-color: #f20aa8ae;
     outline: none;
+}
+
+
+input[type="submit"] {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    border: 2px solid rgba(193, 99, 178, 0.5);
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.35rem 0.5rem;
+    cursor: pointer;
+    color: #c163b2;
+    transition: all 0.4s;
+}
+
+input[type="submit"]:hover {
+    background-color: #c163b2;
+    color: whitesmoke;
 }
