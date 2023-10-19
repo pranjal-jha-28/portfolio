@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
 }
 
 body, html {
@@ -13,11 +11,11 @@ body, html {
 
 body{
     font-family: 'Caveat', cursive;
+    font-weight: bold;
 }
 
 
 .about_container{
-    /* background: url("assets/About.jpeg"); */
     background-image: linear-gradient(to bottom right, #eeaecac6,#94bce9cb),url("assets/About.jpeg"); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,4 +34,44 @@ body{
     color: #e6dae6;
     transition: all 0.4s;
     text-shadow: 15px 10px 4px #c163b2;
+}
+
+.background_wrapper {
+    background-color: white;
+    margin: 1rem 4rem;
+    margin-bottom: 0;
+    padding: 2rem 4rem;
+    opacity: 65%;
+    letter-spacing: 1.5px;
+    font-size: 1.25rem;
+}
+
+.myinfo{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    padding-bottom: 25px;
+}
+
+.otherinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    margin: 25px;
+    border: 2px solid rgba(193, 99, 178, 0.5);
+    width: 30rem;
+    border-radius: 1rem;
+    padding: 0.35rem 0.5rem;
+    cursor: pointer;
+    color: #c163b2;
+    transition: all 0.4s;
+}
+
+.btn:focus{
+    border-color: #f20aa8ae;
+    outline: none;
 }
